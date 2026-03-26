@@ -6,6 +6,22 @@ function App() {
   const [count, setCount] = useState(0);
   const [name, setName] = useState('User');
   return (
+    <div className="App">
+      <h1>testing</h1>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     <div className="App"> 
     <h1>Halo nama ku adi kamu siapa?
     </h1>
