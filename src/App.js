@@ -7,6 +7,8 @@ function App() {
   const [name, setName] = useState('User');
   return (
     <div className="App"> 
+    <h1>Halo nama ku adi
+    </h1>
     <p>Hallo, {name}!</p>
     <input
       type="text"
